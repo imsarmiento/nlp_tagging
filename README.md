@@ -17,7 +17,7 @@ Para empezar a usar:
 1. Ejecuta el script con ``` python tagger.py ```
 2. Después de leer el Tweet, ingresa la categoría correspondiente (las puedes revisar en consola)
 3. Si ingresas un parámetro inválido se repitirá el Tweet
-4. Si quieres corregir una etiqueta, lo mejor es que detengas la ejecución y lo edites manualmente. 
+4. Si quieres corregir una etiqueta, lo mejor es que detengas la ejecución y lo edites manualmente. Este será el ultimo Tweet escrito en el archivo .JSON taggeado. 
 
 Para terminar de usar:
 1. Solo deten la ejecución con ```ctrl-c y en los archivos .JSON quedará guardado tu progresp
