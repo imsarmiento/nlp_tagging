@@ -32,3 +32,4 @@ Para terminar de usar:
 El archivo final será un .JSON que después podrás convertir a tu formato de preferencia. 
 
 
+Realizado por Steven Tarazona - [StevenTarazona](https://github.com/StevenTarazona)
