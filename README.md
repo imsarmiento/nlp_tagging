@@ -6,9 +6,9 @@
 En el archivo config.yaml:
 1. Asegúrate que el valor de current_index sea -1. Este índice se utiliza para guardar tu progreso cada vez que desees parar. El script ejecuta el Tweet que corresponda al valor de current_index + 1. No modifiques este parámetro a menos de que suceda algún error y desees reiniciar / retroceder tu progreso. 
 2. Escoge la ruta en la que se encuentra tu archivo de origen (un .pkl) y escribíbela en la variable filename. Es importante que escribas el nombre del archivo sin la extensión. Ej. si el archivo es ```Persona_en_N0.pkl```, escribe solo ```Persona_en_N0```. Es más facil si ubicas el archivo y el script en la misma carpeta.
-3. En el idioma de origen, el API de Google lo detecta automáticamente pero puedes especificarlo si lo deseas con es para español, fr para frances o en inglés.
+3. El idioma de origen, el API de Google lo detecta automáticamente pero puedes especificarlo si lo deseas con es para español, fr para frances o en inglés.
 4. Tags corresponde a las etiquetas y al orden específico en el que serán mostradas dentro del Script. Este parámetro tampoco se debería cambiar.
-5. Si deseas traducir los Tweets, asegurate que translate sea true, de lo contrario, déjala como false. Puedes configurar el idioma al que quieras traducir los Tweets.
+5. Si deseas traducir los Tweets, asegurate que translate sea true, de lo contrario, déjala como false. Puedes configurar el idioma al que quieras traducir los Tweets con los mismos prefijos que para el idioma de origen.
 
 
 En tu ambiente de ejecución:
