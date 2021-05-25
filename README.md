@@ -10,8 +10,12 @@ En el archivo config.yaml:
 4. Tags corresponde a las etiquetas y al orden específico en el que serán mostradas dentro del Script. Este parámetro tampoco se debería cambiar.
 5. Si deseas traducir los Tweets, asegurate que translate sea true, de lo contrario, déjala como false. Puedes configurar el idioma al que quieras traducir los Tweets.
 
+
 En tu ambiente de ejecución:
 1. Asegurate de tener instaladas las librerías utilizadas, sobretodo [deep_translator](https://pypi.org/project/deep-translator/) (la puedes instalar con ```pip install -U deep_translator``` ).
+
+## Al ejecutar
+
 
 Para empezar a usar:
 1. Ejecuta el script con ``` python tagger.py ```
@@ -20,7 +24,7 @@ Para empezar a usar:
 4. Si quieres corregir una etiqueta, lo mejor es que detengas la ejecución y lo edites manualmente. Este será el ultimo Tweet escrito en el archivo .JSON taggeado. 
 
 Para terminar de usar:
-1. Solo deten la ejecución con ```ctrl-c y en los archivos .JSON quedará guardado tu progresp
+1. Solo deten la ejecución con ```ctrl-c``` y en los archivos .JSON quedará guardado tu progresp
 
 
 ## Resultados
