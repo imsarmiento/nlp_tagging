@@ -24,7 +24,7 @@ Para empezar a usar:
 4. Si quieres corregir una etiqueta, lo mejor es que detengas la ejecución y lo edites manualmente. Este será el ultimo Tweet escrito en el archivo .JSON taggeado. 
 
 Para terminar de usar:
-1. Solo deten la ejecución con ```ctrl-c``` y en los archivos .JSON quedará guardado tu progresp
+1. Solo deten la ejecución con ```ctrl-c``` y en el archivo .JSON quedará guardado tu progreso.
 
 
 ## Resultados
