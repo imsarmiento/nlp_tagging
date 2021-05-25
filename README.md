@@ -13,6 +13,7 @@ En el archivo config.yaml:
 
 En tu ambiente de ejecución:
 1. Asegurate de tener instaladas las librerías utilizadas, sobretodo [deep_translator](https://pypi.org/project/deep-translator/) (la puedes instalar con ```pip install -U deep_translator``` ).
+2. Si trabajas con una versión de Pyhton menor a 3.8, cambia en el script ```import pickle as pk``` a ```import pickle5 as pk```. Recuerda instalarlo en tu ambiente. 
 
 ## Al ejecutar
 
